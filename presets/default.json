@@ -1,5 +1,5 @@
 {
-    "default_model": "JuggernautXL_v9_RunDiffusionPhoto_v2.safetensors",
+    "default_model": "juggernautXL_v8Rundiffusion.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -33,25 +33,55 @@
     "default_sample_sharpness": 2.0,
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
-    "default_performance": "Speed",
+    "default_performance": "Quality",
     "default_prompt": "",
     "default_prompt_negative": "",
     "default_styles": [
         "Fooocus V2",
         "Fooocus Enhance",
-        "Fooocus Sharp"
+        "Fooocus Sharp",
+        "Fooocus Photograph"
     ],
-    "default_aspect_ratio": "1152*896",
+       "available_aspect_ratios": [
+        "1024*1536",
+        "704*1408",
+        "704*1344",
+        "768*1344",
+        "768*1280",
+        "832*1216",
+        "832*1152",
+        "896*1152",
+        "896*1088",
+        "960*1088",
+        "960*1024",
+        "1024*1024",
+        "1024*960",
+        "1088*960",
+        "1088*896",
+        "1152*896",
+        "1152*832",
+        "1216*832",
+        "1280*768",
+        "1344*768",
+        "1344*704",
+        "1408*704",
+        "1472*704",
+        "1536*640",
+        "1600*640",
+        "1664*576",
+        "1728*576"
+    ], 
+    "default_aspect_ratio": "1024*1536",
+    "default_image_number": 4,
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "JuggernautXL_v9_RunDiffusionPhoto_v2.safetensors": "https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/resolve/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors"
+        "juggernautXL_v8Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
         "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
     },
     "previous_default_models": [
-        "JuggernautXL_v9_RunDiffusionPhoto_v2.safetensors",
         "juggernautXL_version8Rundiffusion.safetensors",
         "juggernautXL_version7Rundiffusion.safetensors",
         "juggernautXL_v7Rundiffusion.safetensors",
